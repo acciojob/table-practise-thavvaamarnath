@@ -1,16 +1,59 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <meta charset="UTF-8">
+  <title>Student Details Table</title>
+  <style>
+    table {
+      background-color: yellow;
+      border: 1px solid black;
+      border-collapse: collapse;
+      width: 60%;
+    }
 
+    th, td, tr {
+      border: 1px solid black;
+      padding: 10px;
+      text-align: center;
+    }
+
+    caption {
+      font-weight: bold;
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <table>
+    <caption>Student Details</caption>
+    <thead>
+      <tr>
+        <th>NAME</th>
+        <th>AGE</th>
+        <th>BRANCH</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Alice</td>
+        <td>20</td>
+        <td>Computer Science</td>
+      </tr>
+      <tr>
+        <td>Bob</td>
+        <td>21</td>
+        <td>Mechanical</td>
+      </tr>
+      <tr>
+        <td>Charlie</td>
+        <td>22</td>
+        <td>Electrical</td>
+      </tr>
+    </tbody>
+  </table>
 
 </body>
-
 </html>
+
